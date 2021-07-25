@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: rgba(64, 34, 24,0.7);;
+    text-align: center;
+    height: 70px;
+}
+header h1{
+    color:#eee ;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+body{
+    background-image: url('BookCourt_iStock-690358116-e1515177346323.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 50px;
+    min-height: 700px;
+    padding-top: 3%;
+}
+#forForm{
+    background-color: rgba(64, 34, 24,0.7);;
+    border-radius: 3px;
+    color:#eee ;
+    max-height:160px ;
+    margin:30px;
+}
+#forForm fieldset{
+margin-left: 50px;
+margin-top: 30px;
+}
+#bookName{
+ margin-left: 100px; 
+ width: 320px;  
+}
+#bookprice{
+ margin-left: 133px;
+ width:320px;   
+}
+#submit{
+    margin-left: 192px;
+    width:320px;    
+    color:#eee ;
+    background-color:#C68B59 ;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+#forTable{
+    background-color: rgba(64, 34, 24,0.7);;
+    border-radius: 3px;
+    color:#eee ;
+    margin:30px;
+    min-height: 40px;
+}
+#forTable table{
+  margin:30px;
+  color:#eee ; 
+}
+footer{
+    background-color: rgba(64, 34, 24,0.7);;
+    text-align: center;
+    height: 40px;
+}
+footer p {
+    color:#eee ;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#forTable th{
+padding-left: 40px;
+padding-right: 40px;
+   border: 3px double #eee; 
+}
+table tr{
+    padding-left: 30px;
+padding-right: 30px;
+    border: 3px double #eee;  
+}
+table td{
+    padding-left: 40px;
+padding-right: 40px;
+    border: 3px double #eee; 
+}
+#forTable h2{
+    padding-top: 40px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
